@@ -20,11 +20,105 @@
       }
    ],
    "env": {
-      "TOKEN": {
-         "description": "Your bot token. Get one from @BotFather duh",
-         "required": true,
-         "value": ""
-      },
+      "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "required": true,
+            "value": ""
+        },
+        "BOT_TOKEN2": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+
+        },
+        "BOT_TOKEN3": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+           
+        },
+        "BOT_TOKEN4": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN5": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+           
+        },
+        "BOT_TOKEN6": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN7": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN8": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN9": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN10": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN11": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "BOT_TOKEN12": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+
+        },
+        "BOT_TOKEN13": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+           
+        },
+        "BOT_TOKEN14": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN15": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+           
+        },
+        "BOT_TOKEN16": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN17": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN18": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN19": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN20": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
