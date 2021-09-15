@@ -146,7 +146,7 @@ DEV_USERS.add(OWNER_ID)
 
 
 
-updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
+updater = tg.Updater(BOT_TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("jarv", API_ID, API_HASH)
 pbot = Client("jarvpbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
