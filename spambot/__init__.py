@@ -7,6 +7,7 @@ from datetime import datetime
 import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
+from os import getenv
 
 StartTime = time.time()
 
@@ -29,7 +30,26 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
-    TOKEN = os.environ.get("TOKEN", None)
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    BOT_TOKEN2 = os.environ.get("BOT_TOKEN2", None)
+    BOT_TOKEN3 = os.environ.get("BOT_TOKEN3", None)
+    BOT_TOKEN4 = os.environ.get("BOT_TOKEN4", None)
+    BOT_TOKEN5 = os.environ.get("BOT_TOKEN5", None)
+    BOT_TOKEN6 = os.environ.get("BOT_TOKEN6", None)
+    BOT_TOKEN7 = os.environ.get("BOT_TOKEN7", None)
+    BOT_TOKEN8 = os.environ.get("BOT_TOKEN8", None)
+    BOT_TOKEN9 = os.environ.get("BOT_TOKEN9", None)
+    BOT_TOKEN10 = os.environ.get("BOT_TOKEN10", None)
+    BOT_TOKEN11 = os.environ.get("BOT_TOKEN11", None)
+    BOT_TOKEN12 = os.environ.get("BOT_TOKEN12", None)
+    BOT_TOKEN13 = os.environ.get("BOT_TOKEN13", None)
+    BOT_TOKEN14 = os.environ.get("BOT_TOKEN14", None)
+    BOT_TOKEN15 = os.environ.get("BOT_TOKEN15", None)
+    BOT_TOKEN16 = os.environ.get("BOT_TOKEN16", None)
+    BOT_TOKEN17 = os.environ.get("BOT_TOKEN17", None)
+    BOT_TOKEN18 = os.environ.get("BOT_TOKEN18", None)
+    BOT_TOKEN19 = os.environ.get("BOT_TOKEN19", None)
+    BOT_TOKEN20 = os.environ.get("BOT_TOKEN20", None)
 
     try:
         OWNER_ID = int(os.environ.get("OWNER_ID", None))
@@ -147,3 +167,43 @@ from spambot.modules.helper_funcs.handlers import (
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
+
+Toxic = TelegramClient('Toxic', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
+
+Toxic2 = TelegramClient('Toxic2', APP_ID, API_HASH).start(bot_token=BOT_TOKEN2) 
+
+Toxic3 = TelegramClient('Toxic3', APP_ID, API_HASH).start(bot_token=BOT_TOKEN3) 
+
+Toxic4 = TelegramClient('Toxic4', APP_ID, API_HASH).start(bot_token=BOT_TOKEN4) 
+
+Toxic5 = TelegramClient('Toxic5', APP_ID, API_HASH).start(bot_token=BOT_TOKEN5) 
+
+Toxic6 = TelegramClient('Toxic6', APP_ID, API_HASH).start(bot_token=BOT_TOKEN6) 
+
+Toxic7 = TelegramClient('Toxic7', APP_ID, API_HASH).start(bot_token=BOT_TOKEN7) 
+
+Toxic8 = TelegramClient('Toxic8', APP_ID, API_HASH).start(bot_token=BOT_TOKEN8) 
+
+Toxic9 = TelegramClient('Toxic9', APP_ID, API_HASH).start(bot_token=BOT_TOKEN9) 
+
+Toxic10 = TelegramClient('Toxic10', APP_ID, API_HASH).start(bot_token=BOT_TOKEN10)
+
+Toxic11 = TelegramClient('Toxic11', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
+
+Toxic12 = TelegramClient('Toxic12', APP_ID, API_HASH).start(bot_token=BOT_TOKEN2) 
+
+Toxic13 = TelegramClient('Toxic13', APP_ID, API_HASH).start(bot_token=BOT_TOKEN3) 
+
+Toxic14 = TelegramClient('Toxic14', APP_ID, API_HASH).start(bot_token=BOT_TOKEN4) 
+
+Toxic15 = TelegramClient('Toxic15', APP_ID, API_HASH).start(bot_token=BOT_TOKEN5) 
+
+Toxic16 = TelegramClient('Toxic16', APP_ID, API_HASH).start(bot_token=BOT_TOKEN6) 
+
+Toxic17 = TelegramClient('Toxic17', APP_ID, API_HASH).start(bot_token=BOT_TOKEN7) 
+
+Toxic18 = TelegramClient('Toxic18', APP_ID, API_HASH).start(bot_token=BOT_TOKEN8) 
+
+Toxic19 = TelegramClient('Toxic19', APP_ID, API_HASH).start(bot_token=BOT_TOKEN9) 
+
+Toxic20 = TelegramClient('Toxic20', APP_ID, API_HASH).start(bot_token=BOT_TOKEN10) 
