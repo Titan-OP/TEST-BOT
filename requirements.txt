@@ -34,7 +34,6 @@ lyricsgenius
 tswift
 envparse
 python-decouple
-telethon
 cryptg
 heroku3
 psycopg2
