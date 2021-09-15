@@ -133,9 +133,76 @@ async def _(e):
       except Exception as xy:
         await e.reply("Oops!! Something went wrong, forward this message to @TITANX_CHAT\n\n" + str(xy))
         
-        
+# Bigspam Coming Below this Line...!! Use /uspam instead of it !!        
 
-@gladiator(pattern="^/bigspam(?: |$)(.*)")
+SMEX_USERS = []
+for x in SUDO_USERS:
+    SMEX_USERS.append(x)
+
+
+
+
+
+@Toxic.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic2.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic3.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic4.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic5.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic6.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic7.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic8.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic9.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic10.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic11.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic12.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic13.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic14.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic15.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic16.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic17.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic18.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic19.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@Toxic20.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
 async def gladiators(event):
   if event.sender_id in SUDO_USERS or event.sender_id in DEV_USERS:
     try:
